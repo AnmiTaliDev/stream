@@ -603,4 +603,395 @@
                     dimension: "A",
                     answers: [
                         { text: "На конкретные детали и факты", value: "D" },
-                        { text: "На
+                        { text: "На общие закономерности и связи", value: "P" }
+                    ]
+                },
+                {
+                    text: "Как вы относитесь к переменам?",
+                    dimension: "M",
+                    answers: [
+                        { text: "Принимаю с интересом", value: "A" },
+                        { text: "Предпочитаю стабильность", value: "R" }
+                    ]
+                }
+            ],
+            accurate: [
+                // Speed
+                {
+                    text: "При выборе в магазине вы обычно:",
+                    dimension: "S",
+                    answers: [
+                        { text: "Быстро выбираю то, что нравится", value: "F" },
+                        { text: "Сравниваю цены, читаю отзывы", value: "S" }
+                    ]
+                },
+                {
+                    text: "Когда нужно ответить на сложный вопрос:",
+                    dimension: "S",
+                    answers: [
+                        { text: "Отвечаю первое, что приходит в голову", value: "F" },
+                        { text: "Прошу время подумать", value: "S" }
+                    ]
+                },
+                {
+                    text: "В споре вы:",
+                    dimension: "S",
+                    answers: [
+                        { text: "Быстро приводите аргументы", value: "F" },
+                        { text: "Сначала обдумываете позицию", value: "S" }
+                    ]
+                },
+                // Trigger
+                {
+                    text: "После тяжелого дня вы предпочитаете:",
+                    dimension: "T",
+                    answers: [
+                        { text: "Встретиться с друзьями", value: "E" },
+                        { text: "Побыть дома в тишине", value: "I" }
+                    ]
+                },
+                {
+                    text: "Лучшие идеи приходят к вам:",
+                    dimension: "T",
+                    answers: [
+                        { text: "В процессе обсуждения с другими", value: "E" },
+                        { text: "В одиночестве, наедине с мыслями", value: "I" }
+                    ]
+                },
+                {
+                    text: "На вечеринке вы чаще:",
+                    dimension: "T",
+                    answers: [
+                        { text: "Активно общаетесь с разными людьми", value: "E" },
+                        { text: "Глубоко беседуете с 1-2 людьми", value: "I" }
+                    ]
+                },
+                // Routine
+                {
+                    text: "Ваш идеальный рабочий день:",
+                    dimension: "R",
+                    answers: [
+                        { text: "Четко спланирован по часам", value: "S" },
+                        { text: "Гибкий, в зависимости от настроения", value: "C" }
+                    ]
+                },
+                {
+                    text: "При планировании отпуска вы:",
+                    dimension: "R",
+                    answers: [
+                        { text: "Составляете детальный маршрут", value: "S" },
+                        { text: "Определяете только общее направление", value: "C" }
+                    ]
+                },
+                {
+                    text: "В проектах вы предпочитаете:",
+                    dimension: "R",
+                    answers: [
+                        { text: "Четкие дедлайны и этапы", value: "S" },
+                        { text: "Свободу в управлении временем", value: "C" }
+                    ]
+                },
+                // Ethics
+                {
+                    text: "При решении конфликта в команде важнее:",
+                    dimension: "E",
+                    answers: [
+                        { text: "Найти объективно правильное решение", value: "L" },
+                        { text: "Учесть чувства всех участников", value: "E" }
+                    ]
+                },
+                {
+                    text: "Хороший руководитель - это тот, кто:",
+                    dimension: "E",
+                    answers: [
+                        { text: "Принимает эффективные решения", value: "L" },
+                        { text: "Создает комфортную атмосферу", value: "E" }
+                    ]
+                },
+                {
+                    text: "При оценке идеи вы в первую очередь думаете:",
+                    dimension: "E",
+                    answers: [
+                        { text: "Логично ли это, работает ли?", value: "L" },
+                        { text: "Как это повлияет на людей?", value: "E" }
+                    ]
+                },
+                // Attention
+                {
+                    text: "Читая книгу, вы больше внимания уделяете:",
+                    dimension: "A",
+                    answers: [
+                        { text: "Точности фактов и деталей", value: "D" },
+                        { text: "Общему смыслу и идеям", value: "P" }
+                    ]
+                },
+                {
+                    text: "При знакомстве с новым местом вы:",
+                    dimension: "A",
+                    answers: [
+                        { text: "Замечаете архитектуру, детали интерьера", value: "D" },
+                        { text: "Чувствуете общую атмосферу", value: "P" }
+                    ]
+                },
+                {
+                    text: "В презентации вас больше интересуют:",
+                    dimension: "A",
+                    answers: [
+                        { text: "Конкретные данные и статистика", value: "D" },
+                        { text: "Концепция и долгосрочное видение", value: "P" }
+                    ]
+                },
+                // Mutation
+                {
+                    text: "Когда в вашей жизни происходят изменения:",
+                    dimension: "M",
+                    answers: [
+                        { text: "Это меня вдохновляет и мотивирует", value: "A" },
+                        { text: "Это создает стресс и дискомфорт", value: "R" }
+                    ]
+                },
+                {
+                    text: "Новые технологии и тренды вы:",
+                    dimension: "M",
+                    answers: [
+                        { text: "Быстро изучаете и внедряете", value: "A" },
+                        { text: "Осторожно оцениваете перед использованием", value: "R" }
+                    ]
+                },
+                {
+                    text: "Смена работы для вас - это:",
+                    dimension: "M",
+                    answers: [
+                        { text: "Возможность для роста и развития", value: "A" },
+                        { text: "Серьезное решение, требующее осторожности", value: "R" }
+                    ]
+                }
+            ]
+        };
+
+        // Переменные для теста
+        let currentTest = null;
+        let currentQuestion = 0;
+        let answers = {};
+        let testQuestions = [];
+
+        // Функции управления страницами
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+            document.getElementById(pageId).classList.add('active');
+            
+            if (pageId === 'types') {
+                generateTypesGrid();
+            }
+        }
+
+        // Запуск теста
+        function startTest(level) {
+            currentTest = level;
+            currentQuestion = 0;
+            answers = {};
+            
+            if (level === 'simple') {
+                testQuestions = questions.simple;
+            } else if (level === 'accurate') {
+                testQuestions = questions.accurate;
+            } else {
+                // super - добавим дополнительные вопросы
+                testQuestions = [...questions.accurate, ...questions.accurate]; // Увеличим количество
+            }
+            
+            showPage('test');
+            displayQuestion();
+        }
+
+        // Отображение вопроса
+        function displayQuestion() {
+            const question = testQuestions[currentQuestion];
+            document.getElementById('questionText').textContent = `${currentQuestion + 1}. ${question.text}`;
+            
+            const answersContainer = document.getElementById('answersContainer');
+            answersContainer.innerHTML = '';
+            
+            question.answers.forEach((answer, index) => {
+                const answerDiv = document.createElement('div');
+                answerDiv.className = 'answer';
+                answerDiv.textContent = answer.text;
+                answerDiv.onclick = () => selectAnswer(index);
+                answersContainer.appendChild(answerDiv);
+            });
+            
+            updateProgress();
+            updateButtons();
+        }
+
+        // Выбор ответа
+        function selectAnswer(index) {
+            const question = testQuestions[currentQuestion];
+            answers[currentQuestion] = {
+                dimension: question.dimension,
+                value: question.answers[index].value
+            };
+            
+            document.querySelectorAll('.answer').forEach(el => el.classList.remove('selected'));
+            document.querySelectorAll('.answer')[index].classList.add('selected');
+            
+            updateButtons();
+        }
+
+        // Навигация
+        function nextQuestion() {
+            if (currentQuestion < testQuestions.length - 1) {
+                currentQuestion++;
+                displayQuestion();
+            } else {
+                calculateResult();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                displayQuestion();
+                
+                // Восстановить выбранный ответ
+                const savedAnswer = answers[currentQuestion];
+                if (savedAnswer) {
+                    const question = testQuestions[currentQuestion];
+                    const answerIndex = question.answers.findIndex(a => a.value === savedAnswer.value);
+                    if (answerIndex !== -1) {
+                        document.querySelectorAll('.answer')[answerIndex].classList.add('selected');
+                    }
+                }
+            }
+        }
+
+        // Обновление прогресса и кнопок
+        function updateProgress() {
+            const progress = ((currentQuestion + 1) / testQuestions.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+        }
+
+        function updateButtons() {
+            document.getElementById('prevBtn').disabled = currentQuestion === 0;
+            
+            const hasAnswer = answers[currentQuestion];
+            const nextBtn = document.getElementById('nextBtn');
+            nextBtn.disabled = !hasAnswer;
+            nextBtn.textContent = currentQuestion === testQuestions.length - 1 ? 'Завершить' : 'Далее';
+        }
+
+        // Расчет результата
+        function calculateResult() {
+            const scores = { S: {}, T: {}, R: {}, E: {}, A: {}, M: {} };
+            
+            // Подсчет очков по каждому измерению
+            Object.values(answers).forEach(answer => {
+                if (!scores[answer.dimension][answer.value]) {
+                    scores[answer.dimension][answer.value] = 0;
+                }
+                scores[answer.dimension][answer.value]++;
+            });
+            
+            // Определение типа
+            let typeCode = '';
+            Object.keys(scores).forEach(dimension => {
+                const dimScores = scores[dimension];
+                const options = Object.keys(dimScores);
+                
+                if (options.length === 1) {
+                    typeCode += options[0];
+                } else {
+                    // Выбираем вариант с большим количеством очков
+                    const winner = options.reduce((a, b) => 
+                        dimScores[a] > dimScores[b] ? a : b
+                    );
+                    typeCode += winner;
+                }
+            });
+            
+            displayResult(typeCode);
+        }
+
+        // Отображение результата
+        function displayResult(typeCode) {
+            const typeInfo = personalityTypes[typeCode] || {
+                name: 'Уникальный Тип',
+                desc: 'Ваша комбинация характеристик создает уникальный профиль личности.'
+            };
+            
+            document.getElementById('resultType').textContent = typeCode;
+            document.getElementById('resultName').textContent = typeInfo.name;
+            document.getElementById('resultDescription').textContent = typeInfo.desc;
+            
+            // Отображение измерений
+            const dimensionsContainer = document.getElementById('resultDimensions');
+            dimensionsContainer.innerHTML = '';
+            
+            Object.keys(dimensions).forEach((key, index) => {
+                const letter = typeCode[index];
+                const dimension = dimensions[key];
+                const optionName = dimension.options[letter];
+                
+                const dimDiv = document.createElement('div');
+                dimDiv.className = 'dimension';
+                dimDiv.innerHTML = `
+                    <div class="dimension-label">${dimension.name}</div>
+                    <div class="dimension-value">${letter} - ${optionName}</div>
+                `;
+                dimensionsContainer.appendChild(dimDiv);
+            });
+            
+            showPage('result');
+        }
+
+        // Генерация сетки типов
+        function generateTypesGrid() {
+            const typesGrid = document.getElementById('typesGrid');
+            typesGrid.innerHTML = '';
+            
+            // Показываем только некоторые типы для примера
+            const sampleTypes = [
+                'FISLDA', 'FISLEA', 'FISLPA', 'FISEDA', 'FISEPA',
+                'FICLDA', 'FICLEA', 'FICLPA', 'FICEDA', 'FICEPA',
+                'SISLDA', 'SISLEA', 'SISLPA', 'SISEDA', 'SISEPA'
+            ];
+            
+            sampleTypes.forEach(typeCode => {
+                const typeInfo = personalityTypes[typeCode] || {
+                    name: 'Неизвестный Тип',
+                    desc: 'Описание этого типа находится в разработке.'
+                };
+                
+                const typeDiv = document.createElement('div');
+                typeDiv.className = 'type-card';
+                typeDiv.innerHTML = `
+                    <div class="type-code">${typeCode}</div>
+                    <div class="type-name">${typeInfo.name}</div>
+                    <div class="type-desc">${typeInfo.desc}</div>
+                `;
+                
+                typesGrid.appendChild(typeDiv);
+            });
+            
+            // Добавляем информацию о полной системе
+            const infoDiv = document.createElement('div');
+            infoDiv.className = 'type-card';
+            infoDiv.style.gridColumn = '1 / -1';
+            infoDiv.style.textAlign = 'center';
+            infoDiv.style.backgroundColor = '#667eea';
+            infoDiv.style.color = 'white';
+            infoDiv.innerHTML = `
+                <div class="type-name">Всего в системе STREAM 64 типа личности</div>
+                <div class="type-desc">Пройдите тест, чтобы узнать свой уникальный тип!</div>
+            `;
+            
+            typesGrid.appendChild(infoDiv);
+        }
+
+        // Инициализация
+        document.addEventListener('DOMContentLoaded', function() {
+            showPage('home');
+        });
+    </script>
+</body>
+</html>
